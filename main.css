@@ -16,7 +16,7 @@ body {
 .block {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px;
     gap: 50px;
     width: 100%;
@@ -65,6 +65,7 @@ h3,
 h4,
 h5,
 h6,
+a,
 p,
 span,
 ul,
@@ -72,6 +73,7 @@ li {
     margin: 0;
     padding: 0;
     color: #34424F;
+    text-decoration: none;
 }
 
 h1 {
@@ -129,6 +131,33 @@ hr {
     padding: 0;
     margin: 0;
     border-bottom: 1px solid #34424F;
+}
+
+.knopka-blyat {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 10px;
+    background: #F2EDE7;
+    border-radius: 99px;
+
+}
+
+.knopka-blyat:hover {
+    gap: 15px;
+}
+
+.knopka-blyat h2 {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.knopka-blyat img {
+    width: 15px;
+    height: 14px;
 }
 
 @media(max-width: 600px) {
