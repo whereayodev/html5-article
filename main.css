@@ -6,6 +6,7 @@ body {
     padding: 75px 0px;
     gap: 10px;
     background: #FFFFFF;
+    box-sizing: border-box;
 }
 
 * {
